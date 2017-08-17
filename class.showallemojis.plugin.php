@@ -2,11 +2,9 @@
 $PluginInfo['showAllEmojis'] = [
     'Name' => 'Show All Emojis',
     'Description' => 'Add button to reveal all emojis in dropdown',
-    'Version' => '0.0.3',
+    'Version' => '0.1.0',
     'RequiredApplications' => ['Vanilla' => '>= 2.3'],
     'RequiredPlugins' => ['editor' => '>= 1.8.1'],
-    'SettingsPermission' => 'Garden.Settings.Manage',
-    'SettingsUrl' => '/dashboard/settings/showallemojis',
     'MobileFriendly' => true,
     'HasLocale' => true,
     'Author' => 'Robin Jurinka',
