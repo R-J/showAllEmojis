@@ -2,7 +2,7 @@
 $PluginInfo['showAllEmojis'] = [
     'Name' => 'Show All Emojis',
     'Description' => 'Add button to reveal all emojis in dropdown',
-    'Version' => '0.1.0',
+    'Version' => '0.2.0',
     'RequiredApplications' => ['Vanilla' => '>= 2.3'],
     'RequiredPlugins' => ['editor' => '>= 1.8.1'],
     'MobileFriendly' => true,
