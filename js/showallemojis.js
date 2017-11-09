@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
             emoji.setAttribute( 'title', emojiInfo['alias'] );
             emoji.setAttribute(
                 'data-editor',
-                '{"action":"emoji","value":' + emojiInfo['alias'] + '}'
+                '{"action":"emoji","value":":' + emojiInfo['alias'] + ':"}'
             );
             emoji.innerHTML = emojiInfo['html'];
             emojiContainer.appendChild( emoji );
